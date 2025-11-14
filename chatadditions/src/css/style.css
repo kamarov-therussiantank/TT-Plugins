@@ -60,9 +60,6 @@
 #chat:not(.opening) textarea, #chat:not(.open) textarea {
     margin-left: -20px !important;
 }
-#chat .handle {
-    display: none !important;
-}
 @keyframes disappear {
   0% {
     opacity: 1;
@@ -121,4 +118,5 @@
 #chat:is(.opening, .open) .muteUserChat-button,
 #chat:is(.opening, .open) .muteSystemMessages-button {
     animation: appear 0.3s cubic-bezier(0.79, -0.02, 0.32, 0.98) forwards;
+
 }
