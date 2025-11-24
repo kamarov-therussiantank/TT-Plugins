@@ -34,8 +34,8 @@ window.whenContentInitialized().then(() => {
 		TankTrouble.TankInfoBox.infoBadgesDiv = $('<div class="badge-container"/>');
  
 		// Define icons for badges
-		TankTrouble.TankInfoBox.infoBadgesIcon1 = $('<img class="badgeIcon" src="https://raw.githubusercontent.com/kamarov-therussiantank/TankTrouble-Tools/refs/heads/main/uiadditions%26improvements/src/images/assets/tankInfo/adminBadge.png"/>'); // Premium
-		TankTrouble.TankInfoBox.infoBadgesIcon2 = $('<img class="badgeIcon" src="https://raw.githubusercontent.com/kamarov-therussiantank/TankTrouble-Tools/tree/heads/main/uiadditions%26improvements/src/images/assets/tankInfo/kickstarterBadge.png"/>'); // Kickstarter
+		TankTrouble.TankInfoBox.infoBadgesIcon1 = $('<img class="badgeIcon" src="https://raw.githubusercontent.com/kamarov-therussiantank/TankTrouble-Tools/refs/heads/main/uiadditions%26improvements/src/images/assets/tankInfo/premiumBadge.png"/>'); // Premium
+		TankTrouble.TankInfoBox.infoBadgesIcon2 = $('<img class="badgeIcon" src="https://raw.githubusercontent.com/kamarov-therussiantank/TankTrouble-Tools/refs/heads/main/uiadditions%26improvements/src/images/assets/tankInfo/backerBadge.png"/>'); // Kickstarter
 		TankTrouble.TankInfoBox.infoBadgesIcon3 = $('<img class="badgeIcon" src="https://raw.githubusercontent.com/kamarov-therussiantank/TankTrouble-Tools/refs/heads/main/uiadditions%26improvements/src/images/assets/tankInfo/adminBadge.png"/>'); // Admin
 		TankTrouble.TankInfoBox.infoBadgesIcon4 = $('<img class="badgeIcon" src="https://raw.githubusercontent.com/kamarov-therussiantank/TankTrouble-Tools/refs/heads/main/uiadditions%26improvements/src/images/assets/tankInfo/betaBadge.png"/>'); // Beta Tester
 		TankTrouble.TankInfoBox.infoBadgesIcon5 = $('<img class="badgeIcon" src="https://raw.githubusercontent.com/kamarov-therussiantank/TankTrouble-Tools/refs/heads/main/uiadditions%26improvements/src/images/assets/tankInfo/classicBadge.png"/>'); // Classic Player
@@ -297,3 +297,4 @@ window.whenContentInitialized().then(() => {
     });
 
 });
+
